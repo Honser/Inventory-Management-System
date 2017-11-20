@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7C8E5EC8-9309-4281-B741-6250B5BF96C0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>HW01</RootNamespace>
+    <RootNamespace>ims</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="capacity.h" />
-    <ClCompile Include="HW01.cpp" />
+    <ClCompile Include="ims.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Item.cpp" />
   </ItemGroup>
